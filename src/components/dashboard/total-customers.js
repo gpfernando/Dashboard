@@ -16,13 +16,13 @@ export const TotalCustomers = (props) => (
             gutterBottom
             variant="overline"
           >
-            TOTAL CUSTOMERS
+            TOTAL Sensors
           </Typography>
           <Typography
             color="textPrimary"
             variant="h4"
           >
-            1,6k
+            1,600
           </Typography>
         </Grid>
         <Grid item>

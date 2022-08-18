@@ -14,7 +14,7 @@ export const Sales = (props) => {
         barThickness: 12,
         borderRadius: 4,
         categoryPercentage: 0.5,
-        data: [18, 5, 19, 27, 29, 19, 20],
+        data: [7.0, 6.5, 6.8, 7.2, 6.3, 6.9, 7.1],
         label: 'This year',
         maxBarThickness: 10
       },
@@ -24,7 +24,7 @@ export const Sales = (props) => {
         barThickness: 12,
         borderRadius: 4,
         categoryPercentage: 0.5,
-        data: [11, 20, 12, 29, 30, 25, 13],
+        data: [7.5, 7, 6.9, 7.2, 6.8, 7, 7.5],
         label: 'Last year',
         maxBarThickness: 10
       }
@@ -92,7 +92,7 @@ export const Sales = (props) => {
             Last 7 days
           </Button>
         )}
-        title="Latest Sales"
+        title="Water pH, Lake Ticonderoga"
       />
       <Divider />
       <CardContent>

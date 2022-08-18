@@ -51,12 +51,13 @@ const items = [
     href: '/register',
     icon: (<UserAddIcon fontSize="small" />),
     title: 'Register'
-  },
-  {
-    href: '/404',
-    icon: (<XCircleIcon fontSize="small" />),
-    title: 'Error'
   }
+  // ,
+  // {
+  //   href: '/404',
+  //   icon: (<XCircleIcon fontSize="small" />),
+  //   title: 'Error'
+  // }
 ];
 
 export const DashboardSidebar = (props) => {
@@ -124,7 +125,7 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  US Forest Service
                 </Typography>
                 <Typography
                   color="neutral.400"
@@ -162,25 +163,27 @@ export const DashboardSidebar = (props) => {
           ))}
         </Box>
         <Divider sx={{ borderColor: '#2D3748' }} />
+
         <Box
           sx={{
             px: 2,
             py: 3
           }}
         >
-          <Typography
+
+          {/* <Typography
             color="neutral.100"
             variant="subtitle2"
           >
             Need more features?
-          </Typography>
-          <Typography
+          </Typography> */}
+          {/* <Typography
             color="neutral.500"
             variant="body2"
           >
             Check out our Pro solution template.
-          </Typography>
-          <Box
+          </Typography> */}
+          {/* <Box
             sx={{
               display: 'flex',
               mt: 2,
@@ -193,13 +196,14 @@ export const DashboardSidebar = (props) => {
           >
             <img
               alt="Go to pro"
-              src="/static/images/sidebar_pro.png"
+              src="/src/images/sidebar_pro.png"
             />
           </Box>
           <NextLink
             href="https://material-kit-pro-react.devias.io/"
             passHref
           >
+
             <Button
               color="secondary"
               component="a"
@@ -210,7 +214,7 @@ export const DashboardSidebar = (props) => {
             >
               Pro Live Preview
             </Button>
-          </NextLink>
+          </NextLink> */}
         </Box>
       </Box>
     </>

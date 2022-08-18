@@ -15,13 +15,13 @@ export const TotalProfit = (props) => (
             gutterBottom
             variant="overline"
           >
-            TOTAL PROFIT
+            Actual Spend
           </Typography>
           <Typography
             color="textPrimary"
             variant="h4"
           >
-            $23k
+            $17,000
           </Typography>
         </Grid>
         <Grid item>
